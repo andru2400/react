@@ -5,8 +5,10 @@ import './global.css';
 
 // import Badge from './components/Badge' primer ejemplo
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
+import App from './components/App';
 
 const container = document.getElementById('app');
 
 // ReactDOM.render(<Badge firstName="Andres" LastName="David" jobTitle="T Backend" twitter="@AndresP"/>, container);
-ReactDOM.render(<BadgeNew/>, container);
+ReactDOM.render(<App/>, container);
