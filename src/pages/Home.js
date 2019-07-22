@@ -21,7 +21,7 @@ class Home extends React.Component{
                         Start
                     </Link>
                 </section>
-            
+             22
                 <section className="Home__Icon-container">            
                     <figure>
                         <img src={astronauts} alt="Logo Platzi Badges" className="Home__Icon-image" />						
